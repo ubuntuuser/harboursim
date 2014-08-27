@@ -1,0 +1,12 @@
+using System;
+
+namespace LegoHarbourSim {
+	public class Container :IContainer {
+		public IStoragePlace StoragePlace { set; get; }
+
+		public String name { set; get; }
+
+		public bool onCrane { set; get; }
+	}
+}
+

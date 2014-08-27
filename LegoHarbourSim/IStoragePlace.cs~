@@ -1,0 +1,12 @@
+using System;
+
+namespace LegoHarbourSim {
+	public interface IStoragePlace {
+		bool Empty { get; set; }
+
+		IContainer Container{ set; get; }
+
+		IStoragePlace Underneath { set; get; }
+	}
+}
+

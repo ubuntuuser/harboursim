@@ -1,0 +1,30 @@
+using System;
+using TcpConnectionService;
+using System.Collections.Generic;
+
+namespace LegoHarbourSim {
+	public class Truck : IVehicle {
+		private IPlace currentPlace = Place.truckStart;
+		private ConnectionObject conn;
+		public List<IPlace> possiblePlaces;
+		private IContainer currContainer = null;
+
+		public Truck () {
+			conn = new ConnectionObject("192.168.34.124");
+			possiblePlaces.Add (Place.truckStart);
+			possiblePlaces.Add (Place.truckInLoadingZone);
+		}
+
+		public void goTo(IPlace place) {
+			if (possiblePlaces.Contains (place)) {
+				conn.sendMessage ("goTo$" + currentPlace.Name + "#" + place.Name);
+				currentPlace = place;
+			}
+		}
+
+		public void wait(int seconds) {
+			System.Threading.Thread.Sleep (seconds * 1000);
+		}
+	}
+}
+

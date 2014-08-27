@@ -1,0 +1,11 @@
+using System;
+
+namespace LegoHarbourSim {
+	public class Simulation {
+		static IStoragePlace onTruck;
+
+		public Simulation () {
+		}
+	}
+}
+

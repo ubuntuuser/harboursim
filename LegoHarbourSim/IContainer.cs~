@@ -1,0 +1,12 @@
+using System;
+
+namespace LegoHarbourSim {
+	public interface IContainer {
+		IStoragePlace StoragePrace { set; get; }
+
+		String name { set; get; }
+
+		bool onCrane { set; get; }
+	}
+}
+

@@ -1,0 +1,8 @@
+using System;
+
+namespace LegoHarbourSim {
+	public interface IPlace {
+		String name { get; set; }
+	}
+}
+
