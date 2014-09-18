@@ -7,3 +7,10 @@
 /home/ombra/Documents/Work/Steyr/Lego/LegoHarbourSim/LegoHarbourSim/obj/x86/Debug/LegoHarbourSim.exe.mdb
 /home/ombra/Documents/Work/Steyr/Lego/LegoHarbourSim/LegoHarbourSim/bin/Debug/LegoRestService.dll
 /home/ombra/Documents/Work/Steyr/Lego/LegoHarbourSim/LegoHarbourSim/bin/Debug/TcpConnection.dll
+/home/trans/build/harboursim/LegoHarbourSim/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/home/trans/build/harboursim/LegoHarbourSim/bin/Debug/LegoHarbourSim.exe.mdb
+/home/trans/build/harboursim/LegoHarbourSim/bin/Debug/LegoHarbourSim.exe
+/home/trans/build/harboursim/LegoHarbourSim/obj/x86/Debug/LegoHarbourSim.exe
+/home/trans/build/harboursim/LegoHarbourSim/obj/x86/Debug/LegoHarbourSim.exe.mdb
+/home/trans/build/harboursim/LegoHarbourSim/bin/Debug/LegoRestService.dll
+/home/trans/build/harboursim/LegoHarbourSim/bin/Debug/TcpConnection.dll

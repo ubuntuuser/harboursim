@@ -2,11 +2,13 @@ using System;
 
 namespace LegoHarbourSim {
 	public interface IVehicle {
-		void goTo(IPlace place);
+		void goTo (IPlace place);
 
-		void wait(int seconds);
+		void wait (int seconds);
 
-		void send(string message);
+		void send (string message);
+
+		bool tryConnect ();
 	}
 }
 
