@@ -20,12 +20,13 @@ namespace LegoHarbourSim {
 			while (s != "stop") {
 				Console.WriteLine ("Type message to send");
 				s = Console.ReadLine ();
-				if (s == "stop")
-					break;
+
 
 				truck.send (s);
 //				reachstacker.send (s);
 //				gc.send (s);
+				if (s == "stop")
+					break;
 				Console.WriteLine ("Sent message");
 			}
 		}
