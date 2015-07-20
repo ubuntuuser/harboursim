@@ -2,9 +2,9 @@ using System;
 
 namespace LegoHarbourSim {
 	public class LegoSimulation : ISimulation {
-		IVehicle truck = new LegoTruck ();
-		//		IVehicle reachstacker = new LegoReachstacker ();
-		//		IVehicle gc = new LegoGantryCrane ();
+		//IVehicle truck = new LegoTruck ();
+		//IVehicle reachstacker = new LegoReachstacker ();
+		IVehicle gc = new LegoGantryCrane ();
 
 		public LegoSimulation () {
 
@@ -22,9 +22,9 @@ namespace LegoHarbourSim {
 				s = Console.ReadLine ();
 
 
-				truck.send (s);
+//				truck.send (s);
 //				reachstacker.send (s);
-//				gc.send (s);
+				gc.send (s);
 				if (s == "stop")
 					break;
 				Console.WriteLine ("Sent message");
